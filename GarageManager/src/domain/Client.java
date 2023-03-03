@@ -12,7 +12,7 @@ public class Client {
 	
 	
 	/**
-	 * 
+	 * Constructor
 	 * @param name
 	 * @param phoneNumber
 	 */
