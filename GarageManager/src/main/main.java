@@ -9,7 +9,7 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("TESTE 111");
+		System.out.println("TESTE");
 		
 		
 		Client cliente = new Client("Andre", 961237815);
