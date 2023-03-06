@@ -1,6 +1,7 @@
 package domain;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 
 
@@ -13,7 +14,7 @@ public class Vehicle {
 	private ArrayList<Intervention> interventions = new ArrayList<>();
 	
 	
-	public Vehicle(String brand, String model, String licencePlate, int km, ArrayList<Intervention> interventions) {
+	public Vehicle(String brand, String model, String licencePlate, int km) {
 		super();
 		this.brand = brand;
 		this.model = model;
@@ -66,6 +67,14 @@ public class Vehicle {
 		for (Intervention intervention : interventions) {
 			intervention.toString();
 		}
+	}
+
+
+	public void printVehicleInfo() {
+		System.out.println("Vehicle: " + 
+				this.brand + " " + 
+				this.model);
+		
 	}
 	
 	
