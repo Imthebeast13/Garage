@@ -35,9 +35,8 @@ public class Intervention {
 	 * @param description
 	 * @param manPower
 	 */
-	public Intervention(Vehicle car, String description, Double manPower) {
+	public Intervention(String description, Double manPower) {
 		
-		this.car = car;
 		this.description = description;
 		this.state = States.InQueue;
 		this.interventionTime = null;
